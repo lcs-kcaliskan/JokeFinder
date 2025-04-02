@@ -69,7 +69,6 @@
 				E412F5722D9DFA9D00384DB6 /* Preview Content */,
 				E412F5732D9DFA9D00384DB6 /* Assets.xcassets */,
 				E412F5742D9DFA9D00384DB6 /* JokeFinderApp.swift */,
-				E412F5752D9DFA9D00384DB6 /* JokeView.swift */,
 			);
 			path = JokeFinder;
 			sourceTree = "<group>";
@@ -77,6 +76,7 @@
 		E412F57B2D9DFAA100384DB6 /* Views  */ = {
 			isa = PBXGroup;
 			children = (
+				E412F5752D9DFA9D00384DB6 /* JokeView.swift */,
 			);
 			path = "Views ";
 			sourceTree = "<group>";
