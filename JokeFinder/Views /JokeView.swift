@@ -12,7 +12,7 @@ struct JokeView: View {
     // MARK: Stored properties
     
     // Create the view model (temporarily show the default joke)
-    @State var viewModel = JokeViewModel(currentJoke: exampleJoke)
+    @State var viewModel = JokeViewModel()
     
     // MARK: Computed properties
     var body: some View {
