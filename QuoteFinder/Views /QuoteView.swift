@@ -9,12 +9,9 @@
 import SwiftUI
 
 struct QuoteView: View {
-    
-    // MARK: Stored properties
-    @State var viewModel = QuoteViewModel()
+    @StateObject var viewModel = QuoteViewModel()
     @State var punchlineOpacity = 0.0
     @State var buttonOpacity = 0.0
-    @State var punchlineTimer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
 
     var body: some View {
         VStack {
@@ -31,7 +28,6 @@ struct QuoteView: View {
                 
                 Button {
                     withAnimation {
-                        viewModel.currentQuote = nil
                         punchlineOpacity = 0.0
                         buttonOpacity = 0.0
                     }
@@ -39,13 +35,18 @@ struct QuoteView: View {
                     Task {
                         await viewModel.fetchQuote()
                     }
-                    
-                    punchlineTimer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
                 } label: {
                     Text("New Quote")
                 }
                 .buttonStyle(.borderedProminent)
                 .opacity(buttonOpacity)
+            } else {
+                ProgressView()
+            }
+        }
+        .onAppear {
+            Task {
+                await viewModel.fetchQuote()
             }
         }
     }

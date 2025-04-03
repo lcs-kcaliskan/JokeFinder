@@ -11,8 +11,8 @@
 		E412F5782D9DFA9D00384DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E412F5732D9DFA9D00384DB6 /* Assets.xcassets */; };
 		E412F5792D9DFA9D00384DB6 /* QuoteFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412F5742D9DFA9D00384DB6 /* QuoteFinderApp.swift */; };
 		E412F5812D9DFB6E00384DB6 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412F5802D9DFB6E00384DB6 /* Quote.swift */; };
-		E412F5832D9DFBB100384DB6 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412F5822D9DFBB100384DB6 /* QuoteViewModel.swift */; };
 		E412F5852D9E065100384DB6 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412F5842D9E065100384DB6 /* QuoteView.swift */; };
+		E412F5872D9E0C3900384DB6 /* QuoteViewModel 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412F5862D9E0C3900384DB6 /* QuoteViewModel 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,8 @@
 		E412F5732D9DFA9D00384DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E412F5742D9DFA9D00384DB6 /* QuoteFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFinderApp.swift; sourceTree = "<group>"; };
 		E412F5802D9DFB6E00384DB6 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
-		E412F5822D9DFBB100384DB6 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
 		E412F5842D9E065100384DB6 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		E412F5862D9E0C3900384DB6 /* QuoteViewModel 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewModel 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		E412F57D2D9DFAAF00384DB6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				E412F5822D9DFBB100384DB6 /* QuoteViewModel.swift */,
+				E412F5862D9E0C3900384DB6 /* QuoteViewModel 2.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E412F55B2D9DFA5F00384DB6 /* Build configuration list for PBXProject "JokeFinder" */;
+			buildConfigurationList = E412F55B2D9DFA5F00384DB6 /* Build configuration list for PBXProject "QuoteFinder" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -170,9 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E412F5872D9E0C3900384DB6 /* QuoteViewModel 2.swift in Sources */,
 				E412F5792D9DFA9D00384DB6 /* QuoteFinderApp.swift in Sources */,
 				E412F5812D9DFB6E00384DB6 /* Quote.swift in Sources */,
-				E412F5832D9DFBB100384DB6 /* QuoteViewModel.swift in Sources */,
 				E412F5852D9E065100384DB6 /* QuoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JokeFinder/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"QuoteFinder/Preview Content\"";
 				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"JokeFinder/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"QuoteFinder/Preview Content\"";
 				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -360,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E412F55B2D9DFA5F00384DB6 /* Build configuration list for PBXProject "JokeFinder" */ = {
+		E412F55B2D9DFA5F00384DB6 /* Build configuration list for PBXProject "QuoteFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E412F56C2D9DFA6200384DB6 /* Debug */,
