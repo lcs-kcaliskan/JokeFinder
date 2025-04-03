@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct JokeFinderApp: App {
+struct QuoteFinderApp: App {
     var body: some Scene {
         WindowGroup {
-            JokeView()
+            QuoteView()
         }
     }
 }
